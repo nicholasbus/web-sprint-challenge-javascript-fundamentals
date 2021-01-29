@@ -31,12 +31,14 @@ For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you ma
 
 function summation(num) {
   let counter = 0;
-  for(let i = 1; i <= num; i++){
-    counter += i;
+  function count(){
+    for(let i = 1; i <= num; i++){
+      counter += i;
+    }
+    return counter;
   }
-  return counter;
+  return count();
 }
- 
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
 // Given this zoo data from around the United States, follow the instructions below. Use the specific array methods in the requests below to solve the problems.
