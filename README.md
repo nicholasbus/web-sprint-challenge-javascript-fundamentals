@@ -38,7 +38,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     * (1) Global binding is when 'this' is used in the global context, 'this' is bound to the window or global object, or is undefined in strict mode. (2) Implicit binding is when a function is called by a preceding dot, the object to the left of the dot is what 'this' is bound to. (3) New binding is whenever a constructor function is used with the new keyword, 'this' is bound to the new object created and returned by the constructor. (4) Explicit binding is when the `.call`, `.bind`, or `.apply` method is used, 'this' is bound to whichever object the methods are given. 
 
 5. Why do we need super() in an extended class?
-    * We need super in an extended class to tell the object that the class is inheriting its parent's methods.
+    * We need super in an extended class to tell the object that the class is inheriting its parent's methods and attributes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
